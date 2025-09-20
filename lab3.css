@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(235, 223, 204);
+    font-family: Verdana, sans-serif;
+}
+#HeaderFooter{
+    text-align: center;
+    background-color: #D9CECC;
+    color: rgb(21, 20, 20);
+    padding: 5px;
+    margin: 5px;
+    font-family: cursive;
+    clear: both;
+}
+#nav{
+    background-color: #C0CCC2;
+    text-align: center;
+    padding: 10px;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+#nav li:hover{
+    background-color: #D9CECC;
+    color: white;
+}
+/* gets rid of underline */
+#nav a{
+    text-decoration: none;
+    color: inherit; 
+}
+.side {
+    text-align: center;
+    background-color: #999185 ;
+    float: right;
+    width: 20%;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.side:hover {
+    background-color: #A9A8AD;
+    color:  #070706;
+}
+.content-box {
+    background-color: #F2E7E4;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.content-box{
+    width: 70%;
+    float: left;
+}
+.name {
+  width: 200px;                 
+}
+#name:focus {
+    width: 600px;
+}
